@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Comments from "./Comments";
 
 const Post = () => {
   return (
@@ -80,7 +81,8 @@ const Post = () => {
           </div>
         </div>
       </div>
-      {/*COMMENTS*/}Comments
+      {/*COMMENTS*/}
+      <Comments/>
     </div>
   );
 };
