@@ -11,6 +11,9 @@ const nextConfig = {
       },
       {protocol:"https",
         hostname: "www.planetware.com"
+      },
+      {protocol:"https",
+        hostname: "assets.designhill.com"
       }
     ]
   }
